@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Down</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="popup hidden">
+        <span class="close">X</span>
+        <h3 class="date">What date are you waiting for🤔?</h3>
+        <p class="example">Ex: Dec 31, 2022 23:59:59</p>
+        <input
+          class="date-input"
+          title="Type date"
+          type="text"
+          placeholder="Type date, event or birthday "
+        />
+        <button type="button" class="done">Done</button>
+      </div>
+      <div class="count">
+        <p class="days">
+          <span class="day">000</span>
+          <span>Days</span>
+        </p>
+        <p class="hours">
+          <span class="hour">00</span>
+          <span>Hours</span>
+        </p>
+        <p class="minutes">
+          <span class="minute">00</span>
+          <span>Minutes</span>
+        </p>
+        <p class="seconds">
+          <span class="second">00</span>
+          <span>Seconds</span>
+        </p>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
